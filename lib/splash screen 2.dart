@@ -16,6 +16,7 @@ class SplashScreen2 extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Image.asset("assets/images/splash_screen_pic.png"),
+                SizedBox(height: 15.h),
                 Text(
                   "To the hub",
                   style: TextStyle(
@@ -23,6 +24,7 @@ class SplashScreen2 extends StatelessWidget {
                     fontWeight: FontWeight.w700,
                   ),
                 ),
+                SizedBox(height: 24.h),
                 Text(
                   "Quis porttitor nullam mi in tellus quis commodo. Mattis dignissim curabitur sed cursus sed porttitor vel at iaculis. Eget varius posuere massa, amet eu, non libero. Laoreet arcu sem libero, non amet, erat risus eu, egestas. Augue nulla feugiat nulla vel. Aliquet non dictum amet fermentum nibh enim fames mauris praesent. Pulvinar augue semper egestas praesent tincidunt quis eu.",
                   style:
