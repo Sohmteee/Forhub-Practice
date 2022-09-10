@@ -11,7 +11,7 @@ class OnBoardingScreen1 extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.white,
         body: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 16.w),
+          padding: EdgeInsets.only(left: 16.w),
           child: const OnBoarding(
             title: "Quick and easy way to locate a hub",
             image: "assets/images/on1.png",

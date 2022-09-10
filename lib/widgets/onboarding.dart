@@ -36,7 +36,7 @@ class OnBoarding extends StatelessWidget {
           style: TextStyle(
             fontFamily: "Sen",
             fontWeight: FontWeight.w400,
-            fontSize: 24.sp,
+            fontSize: 18.sp,
           ),
         ),
       ],
