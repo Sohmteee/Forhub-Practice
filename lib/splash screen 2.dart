@@ -7,7 +7,10 @@ class SplashScreen2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-          body:),
+        body: Column(
+          children: [],
+        ),
+      ),
     );
   }
 }
