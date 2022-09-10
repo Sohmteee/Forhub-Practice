@@ -11,7 +11,11 @@ class OnBoarding extends StatelessWidget {
 
   final String title;
   final AssetImage image;
+  final String writeUp =
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non ipsum tempor auctor ipsum sollicitudin dui vel eu mi";
 
   @override
-  Widget build(BuildContext context) {}
+  Widget build(BuildContext context) {
+    return Column();
+  }
 }
