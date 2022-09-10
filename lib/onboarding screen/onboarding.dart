@@ -6,6 +6,7 @@ class OnBoarding extends StatelessWidget {
   const OnBoarding({
     Key? key,
     required title,
+    required image,
   }) : super(key: key);
 
   final String title;
