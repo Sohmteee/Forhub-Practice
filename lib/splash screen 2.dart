@@ -35,10 +35,12 @@ class SplashScreen2 extends StatelessWidget {
                   Text(
                     "Begin your journey",
                     style: TextStyle(
+                      fontFamily: ,
                       fontSize: 18.sp,
                       fontWeight: FontWeight.w400,
                     ),
                   ),
+                  SizedBox(width: 15.w),
                   Image.asset("assets/images/Vector.png"),
                 ],
               ),
