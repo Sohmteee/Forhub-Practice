@@ -28,7 +28,16 @@ class OnBoarding extends StatelessWidget {
           ),
         ),
         SizedBox(height: 50.h),
-        AssetImage("ima")
+        Image.asset(image),
+        SizedBox(height: 40.h),
+        Text(
+          writeUp,
+          style: TextStyle(
+            fontFamily: "Sen",
+            fontWeight: FontWeight.w700,
+            fontSize: 24.sp,
+          ),
+        ),
       ],
     );
   }
