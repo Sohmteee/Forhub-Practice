@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import 'splash screens/splash screen 2.dart';
-import 'splash screens/splash screen 1.dart';
+import 'package:forhub/onboarding%20screen/onboarding%20screen%201.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +19,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           fontFamily: "Nirmala"
         ),
-        home: const SplashScreen2(),
+        home: const OnBoardingScreen1(),
         debugShowCheckedModeBanner: false,
       ),
     );

@@ -6,9 +6,13 @@ class OnBoardingScreen1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return OnBoarding(
-      title: "Quick and easy way to locate a hub",
-      image: "assets/images/on1.png",
+    return SafeArea(
+      child: Scaffold(
+        body: OnBoarding(
+          title: "Quick and easy way to locate a hub",
+          image: "assets/images/on1.png",
+        ),
+      ),
     );
   }
 }
