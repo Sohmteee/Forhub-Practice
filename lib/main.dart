@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'splash screen 2.dart';
 import 'splash screen.dart';
@@ -12,14 +13,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'For Hub',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        fontFamily: "Nirmala"
+    return ScreenUtilInit(
+      child: MaterialApp(
+        title: 'For Hub',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+          fontFamily: "Nirmala"
+        ),
+        home: const SplashScreen2(),
+        debugShowCheckedModeBanner: false,
       ),
-      home: const SplashScreen2(),
-      debugShowCheckedModeBanner: false,
     );
   }
 }
