@@ -5,8 +5,8 @@ import 'package:flutter/src/widgets/framework.dart';
 class OnBoarding extends StatelessWidget {
   const OnBoarding({
     Key? key,
-    required title,
-    required image,
+    required this.title,
+    required this.image,
   }) : super(key: key);
 
   final String title;
