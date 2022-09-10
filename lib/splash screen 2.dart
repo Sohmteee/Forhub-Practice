@@ -30,6 +30,7 @@ class SplashScreen2 extends StatelessWidget {
                   style:
                       TextStyle(fontSize: 18.sp, fontWeight: FontWeight.w400),
                 ),
+                SizedBox(height: 87.h),
               ],
             ),
           ),
