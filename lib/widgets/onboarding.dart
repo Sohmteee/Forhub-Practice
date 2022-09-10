@@ -27,6 +27,8 @@ class OnBoarding extends StatelessWidget {
             fontSize: 24.sp,
           ),
         ),
+        SizedBox(height: 50.h),
+        Imag
       ],
     );
   }
