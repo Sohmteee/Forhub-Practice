@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:forhub/onboarding%20screen/onboarding%20screen%201.dart';
 
+import 'onboarding screen/onboarding screen 2.dart';
+
 void main() {
   runApp(const MyApp());
 }
