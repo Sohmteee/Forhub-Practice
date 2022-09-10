@@ -82,6 +82,8 @@ flutter:
     - family: Sen
       fonts:
         - asset: assets/fonts/Sen-Regular.ttf
+        - asset: assets/fonts/Sen-Bold.ttf
+        - asset: assets/fonts/Sen-ExtraBold.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
