@@ -78,6 +78,9 @@ flutter:
     - family: Nirmala
       fonts:
         - asset: assets/fonts/Nirmala.ttf
+
+    - family: Sen
+      fonts:
         - asset: assets/fonts/Sen-Regular.ttf
   #         style: italic
   #   - family: Trajan Pro
