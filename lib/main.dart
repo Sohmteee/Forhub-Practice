@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'splash_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const SplashScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
-
