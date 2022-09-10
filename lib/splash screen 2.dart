@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class SplashScreen2 extends StatelessWidget {
   const SplashScreen2({Key? key}) : super(key: key);
@@ -10,7 +11,7 @@ class SplashScreen2 extends StatelessWidget {
         backgroundColor: Colors.white,
         body: Center(
           child: Padding(
-            padding: const EdgeInsets.all(16),
+            padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
