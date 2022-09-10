@@ -15,8 +15,16 @@ class SplashScreen2 extends StatelessWidget {
               Image.asset("assets/images/splash_screen_pic.png"),
               const Text(
                 "To the hub",
-                style: TextStyle(),
-              )
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const Text(
+                "To the hub",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ],
           ),
         ),
