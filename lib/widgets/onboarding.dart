@@ -27,6 +27,7 @@ class OnBoarding extends StatelessWidget {
             fontWeight: FontWeight.w700,
             fontSize: 24.sp,
           ),
+          textAlign: TextAlign.start,
         ),
         SizedBox(height: 50.h),
         Image.asset(image),
