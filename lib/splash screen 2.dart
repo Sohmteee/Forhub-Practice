@@ -18,6 +18,7 @@ class SplashScreen2 extends StatelessWidget {
                 const Text(
                   "To the hub",
                   style: TextStyle(
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
