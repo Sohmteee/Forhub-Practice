@@ -31,6 +31,13 @@ class SplashScreen2 extends StatelessWidget {
                       TextStyle(fontSize: 18.sp, fontWeight: FontWeight.w400),
                 ),
                 SizedBox(height: 87.h),
+                Text(
+                  "Begin your journey",
+                  style: TextStyle(
+                    fontSize: 18.sp,
+                    fontWeight: FontWeight.w400,
+                  ),
+                ),
               ],
             ),
           ),
