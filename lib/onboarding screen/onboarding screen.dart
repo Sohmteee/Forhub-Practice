@@ -9,10 +9,12 @@ class OnBoardingScreen extends StatelessWidget {
     return OnBoardingSlider(
       totalPage: totalPage,
       headerBackgroundColor: Colors.white,
-      background: const[
-        Image.asset("assets/images/on1.png"")
+      background: [
+        Image.asset("assets/images/on1.png"),
+        Image.asset("assets/images/on2.png"),
+        Image.asset("assets/images/on3.png"),
       ],
-      speed: speed,
+      speed: 1.8,
       pageBodies: pageBodies,
     );
   }
