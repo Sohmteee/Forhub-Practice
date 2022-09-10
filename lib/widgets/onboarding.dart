@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class OnBoarding extends StatelessWidget {
   const OnBoarding({
@@ -22,7 +23,8 @@ class OnBoarding extends StatelessWidget {
           title,
           style: TextStyle(
             fontFamily: "Sen",
-            
+            fontWeight: FontWeight.w700,
+            fontSize: 24.sp,
           ),
         ),
       ],
