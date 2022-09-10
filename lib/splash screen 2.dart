@@ -7,10 +7,14 @@ class SplashScreen2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Column(
-          children: [
-            Image.asset("assets/images/splash_screen_pic.png"),
-          ],
+        backgroundColor: Colors.white,
+        body: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Image.asset("assets/images/splash_screen_pic.png"),
+            ],
+          ),
         ),
       ),
     );

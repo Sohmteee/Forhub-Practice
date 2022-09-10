@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
       title: 'For Hub',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        backgroundColor: Colors.white,
       ),
       home: const SplashScreen2(),
       debugShowCheckedModeBanner: false,
