@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(width, height),
+      designSize: const Size(375, 812),
       builder: (_, child)=> MaterialApp(
         title: 'For Hub',
         theme: ThemeData(
