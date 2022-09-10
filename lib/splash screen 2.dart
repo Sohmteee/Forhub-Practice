@@ -19,14 +19,12 @@ class SplashScreen2 extends StatelessWidget {
                   "To the hub",
                   style: TextStyle(
                     fontSize: 18,
-                    fontWeight: FontWeight.bold,
+                    fontWeight: FontWeight.w700,
                   ),
                 ),
                 const Text(
                   "Quis porttitor nullam mi in tellus quis commodo. Mattis dignissim curabitur sed cursus sed porttitor vel at iaculis. Eget varius posuere massa, amet eu, non libero. Laoreet arcu sem libero, non amet, erat risus eu, egestas. Augue nulla feugiat nulla vel. Aliquet non dictum amet fermentum nibh enim fames mauris praesent. Pulvinar augue semper egestas praesent tincidunt quis eu.",
-                  style: TextStyle(
-                    fontSize: 18,
-                  ),
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.w400),
                 ),
               ],
             ),
