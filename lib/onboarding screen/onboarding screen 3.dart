@@ -13,8 +13,8 @@ class OnBoardingScreen3 extends StatelessWidget {
         body: Padding(
           padding: EdgeInsets.only(left: 18.w, right: 27.w),
           child: const OnBoarding(
-            title: "Quick and easy way to locate a hub",
-            image: "assets/images/on1.png",
+            title: "Quick and easy",
+            image: "assets/images/on3.png",
           ),
         ),
       ),
