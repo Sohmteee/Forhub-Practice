@@ -8,7 +8,7 @@ class OnBoardingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return OnBoardingSlider(
-      totalPage: totalPage,
+      totalPage: 3,
       headerBackgroundColor: Colors.white,
       background: [
         Image.asset("assets/images/on1.png"),
@@ -16,8 +16,10 @@ class OnBoardingScreen extends StatelessWidget {
         Image.asset("assets/images/on3.png"),
       ],
       speed: 1.8,
-      pageBodies: const [
-        onBoarding1,onBoarding2
+      pageBodies: [
+        onBoarding1,
+        onBoarding2,
+        onBoarding3,
       ],
     );
   }
