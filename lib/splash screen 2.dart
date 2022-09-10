@@ -13,7 +13,6 @@ class SplashScreen2 extends StatelessWidget {
           padding: EdgeInsets.symmetric(horizontal: 16.w),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Image.asset("assets/images/splash_screen_pic.png"),
               SizedBox(height: 15.h),
