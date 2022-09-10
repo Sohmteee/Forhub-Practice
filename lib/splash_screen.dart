@@ -7,9 +7,11 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Center(
-      child: Image.asset("assets/images/FORHUB 1.png"),
-    ));
+    return SafeArea(
+      child: Scaffold(
+          body: Center(
+        child: Image.asset("assets/images/FORHUB 1.png"),
+      )),
+    );
   }
 }
