@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           fontFamily: "Nirmala"
         ),
-        home: const OnBoardingScreen1(),
+        home: const OnBoardingScreen2(),
         debugShowCheckedModeBanner: false,
       ),
     );
