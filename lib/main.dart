@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'splash screen 2.dart';
 import 'splash screen.dart';
 
 void main() {
@@ -15,8 +16,9 @@ class MyApp extends StatelessWidget {
       title: 'For Hub',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        backgroundColor: Colors.white,
       ),
-      home: const SplashScreen(),
+      home: const SplashScreen2(),
       debugShowCheckedModeBanner: false,
     );
   }
