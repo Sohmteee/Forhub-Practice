@@ -8,8 +8,8 @@ class OnBoarding extends StatelessWidget {
     required title,
   }) : super(key: key);
 
-  final String title = "";
-  final Image.a
+  final String title;
+  final AssetImage image;
 
   @override
   Widget build(BuildContext context) {}
