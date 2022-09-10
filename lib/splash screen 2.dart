@@ -16,10 +16,10 @@ class SplashScreen2 extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Image.asset("assets/images/splash_screen_pic.png"),
-                const Text(
+                 Text(
                   "To the hub",
                   style: TextStyle(
-                    fontSize: 18,
+                    fontSize: 18.sp,
                     fontWeight: FontWeight.w700,
                   ),
                 ),
