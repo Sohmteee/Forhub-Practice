@@ -9,13 +9,12 @@ class OnBoardingScreen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Center(
-          child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 16.w),
-            child: const OnBoarding(
-              title: "Quick and easy way to locate a hub",
-              image: "assets/images/on1.png",
-            ),
+        backgroundColor: Colors.white,
+        body: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 16.w),
+          child: const OnBoarding(
+            title: "Quick and easy way to locate a hub",
+            image: "assets/images/on1.png",
           ),
         ),
       ),
