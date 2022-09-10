@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      child: MaterialApp(
+      builder: (_, child)=> MaterialApp(
         title: 'For Hub',
         theme: ThemeData(
           primarySwatch: Colors.blue,
