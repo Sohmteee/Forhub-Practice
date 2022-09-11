@@ -20,6 +20,7 @@ class OnBoardingScreen extends StatelessWidget {
     ];
 
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         children: [
           SizedBox(
