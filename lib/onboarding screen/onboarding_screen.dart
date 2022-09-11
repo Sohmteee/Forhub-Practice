@@ -33,10 +33,9 @@ class OnBoardingScreen extends StatelessWidget {
             height: MediaQuery.of(context).size.height * .8,
             child: PageView.builder(
               controller: _controller,
+              itemCount: 3,
               itemBuilder: (_, index) {
-                return Container(
-                  height: ,
-                );
+                return OnBoarding(title: title, image: image)
               },
             ),
           ),
