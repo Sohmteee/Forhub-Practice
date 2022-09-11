@@ -10,7 +10,8 @@ class OnBoardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    PageController controller = PageController();
+    PageController _controller = PageController();
+    int 
 
     List<OnBoarding> pages = [
       onBoarding1,
