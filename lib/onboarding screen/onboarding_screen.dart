@@ -1,3 +1,4 @@
+import 'package:appinio_swiper/appinio_swiper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_onboarding_slider/flutter_onboarding_slider.dart';
 import 'package:forhub/public%20data.dart';
@@ -9,8 +10,14 @@ class OnBoardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Ap
-      ];
+        AppinioSwiper(
+          cards: [
+            onBoarding1,
+            onBoarding2,
+            onBoarding3,
+          ],
+        ),
+      ],
     );
   }
 }
