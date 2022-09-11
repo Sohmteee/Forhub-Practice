@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       builder: (_, child) => MaterialApp(
         title: 'For Hub',
         theme: ThemeData(primarySwatch: Colors.blue, fontFamily: "Nirmala"),
-        home: const OnBoardingScreen(),
+        home: const OnBoardingScreen3(),
         debugShowCheckedModeBanner: false,
       ),
     );
