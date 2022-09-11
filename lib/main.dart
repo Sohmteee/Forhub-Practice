@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           fontFamily: "Nirmala",
         ),
-        home: const SplashScrn(),
+        home: const SplashScreen(),
         debugShowCheckedModeBanner: false,
       ),
     );
