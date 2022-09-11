@@ -19,6 +19,12 @@ class OnBoardingScreen extends StatelessWidget {
       onBoarding3,
     ];
 
+    List<Color> colors = [
+      Colors.blue,
+      Colors.yellow,
+      Colors.red,
+    ];
+
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(
@@ -28,7 +34,9 @@ class OnBoardingScreen extends StatelessWidget {
             child: PageView.builder(
               controller: _controller,
               itemBuilder: (_, index) {
-                return Container();
+                return Container(
+                  height: ,
+                );
               },
             ),
           ),
