@@ -17,30 +17,33 @@ class OnBoarding extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Text(
-          title,
-          style: TextStyle(
-            fontFamily: "Sen",
-            fontWeight: FontWeight.w700,
-            fontSize: 24.sp,
+    return Padding(
+      padding: const EdgeInsets.symmetric(8.0),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(
+            title,
+            style: TextStyle(
+              fontFamily: "Sen",
+              fontWeight: FontWeight.w700,
+              fontSize: 24.sp,
+            ),
+            textAlign: TextAlign.start,
           ),
-          textAlign: TextAlign.start,
-        ),
-        SizedBox(height: 50.h),
-        Image.asset(image),
-        SizedBox(height: 40.h),
-        Text(
-          writeUp,
-          style: TextStyle(
-            fontFamily: "Sen",
-            fontWeight: FontWeight.w400,
-            fontSize: 18.sp,
+          SizedBox(height: 50.h),
+          Image.asset(image),
+          SizedBox(height: 40.h),
+          Text(
+            writeUp,
+            style: TextStyle(
+              fontFamily: "Sen",
+              fontWeight: FontWeight.w400,
+              fontSize: 18.sp,
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
