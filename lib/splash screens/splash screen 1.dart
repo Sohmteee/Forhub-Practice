@@ -7,6 +7,10 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SafeArea(child: SplashScreen());
+    return const SafeArea(
+      child: SplashScreen(
+        
+      ),
+    );
   }
 }
