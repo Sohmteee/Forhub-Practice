@@ -11,7 +11,7 @@ class OnBoardingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     PageController _controller = PageController();
-    int 
+    int _curr = 0;
 
     List<OnBoarding> pages = [
       onBoarding1,
@@ -25,7 +25,12 @@ class OnBoardingScreen extends StatelessWidget {
           SizedBox(
             height: MediaQuery.of(context).size.height * .8,
             child: PageView(
+              controller: _controller,
               children: pages,
+              onPageChanged: (num){
+          setState(() {
+            _curr=num;
+          });
             ),
           ),
         ],
