@@ -27,9 +27,8 @@ class OnBoardingScreen extends StatelessWidget {
             height: MediaQuery.of(context).size.height * .8,
             child: PageView.builder(
               controller: _controller,
-              children: pages,
-              onPageChanged: (n) {
-                _curr = n;
+              itemBuilder: (_, index) {
+                return Container();
               },
             ),
           ),
