@@ -12,7 +12,12 @@ class OnBoardingScreen extends StatelessWidget {
       body: PageView.builder(
         itemCount: 3,
         itemBuilder: (_, index) {
-
+          switch (index) {
+            case thisPage.:
+              
+              break;
+            default:
+          }
         },
       ),
     );
