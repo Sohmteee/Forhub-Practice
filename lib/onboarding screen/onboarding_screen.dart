@@ -1,6 +1,7 @@
 import 'package:appinio_swiper/appinio_swiper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_onboarding_slider/flutter_onboarding_slider.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:forhub/public%20data.dart';
 import 'package:forhub/widgets/onboarding.dart';
 
@@ -20,8 +21,11 @@ class OnBoardingScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          PageView(
-            children: pages,
+          SizedBox(
+            height: MediaQuery.of(context).size.height * .8,
+            child: PageView(
+              children: pages,
+            ),
           ),
         ],
       ),
