@@ -28,9 +28,8 @@ class OnBoardingScreen extends StatelessWidget {
               controller: _controller,
               children: pages,
               onPageChanged: (num){
-          setState(() {
-            _curr=num;
-          });
+                set
+        },
             ),
           ),
         ],
