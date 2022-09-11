@@ -10,14 +10,7 @@ class OnBoardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: 
-          AppinioSwiper(
-            cards: [
-              onBoarding3,
-              onBoarding2,
-              onBoarding1,
-            
-        ],
-      ),
+          PageView.builder(itemBuilder: itemBuilder)
     );
   }
 }
