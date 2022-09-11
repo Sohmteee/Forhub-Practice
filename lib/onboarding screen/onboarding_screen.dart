@@ -13,12 +13,6 @@ class OnBoardingScreen extends StatelessWidget {
     PageController _controller = PageController();
     int _curr = 0;
 
-    List<OnBoarding> pages = [
-      onBoarding1,
-      onBoarding2,
-      onBoarding3,
-    ];
-
     List<Color> colors = [
       Colors.blue,
       Colors.yellow,
@@ -35,7 +29,10 @@ class OnBoardingScreen extends StatelessWidget {
               controller: _controller,
               itemCount: 3,
               itemBuilder: (_, index) {
-                return OnBoarding(title: title, image: image)
+                return OnBoarding(
+                  title: titles[index],
+                  image: images[index],
+                );
               },
             ),
           ),
