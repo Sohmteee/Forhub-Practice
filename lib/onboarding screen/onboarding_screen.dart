@@ -8,16 +8,16 @@ class OnBoardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        AppinioSwiper(
-          cards: [
-            onBoarding1,
-            onBoarding2,
-            onBoarding3,
-          ],
-        ),
-      ],
+    return Scaffold(
+      body: 
+          AppinioSwiper(
+            cards: [
+              onBoarding1,
+              onBoarding2,
+              onBoarding3,
+            
+        ],
+      ),
     );
   }
 }
