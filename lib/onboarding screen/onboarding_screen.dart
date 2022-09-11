@@ -9,8 +9,12 @@ class OnBoardingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: 
-          PageView.builder(itemBuilder: (_, position))
+      body: PageView.builder(
+        itemCount: 3,
+        itemBuilder: (_, index) {
+
+        },
+      ),
     );
   }
 }
