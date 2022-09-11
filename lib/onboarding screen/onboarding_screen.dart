@@ -9,8 +9,12 @@ class OnBoardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    PageController controller = PageController();
+
     List pages = <OnBoarding>[
-      onBoarding1, onBoarding2, onBoarding3,
+      onBoarding1,
+      onBoarding2,
+      onBoarding3,
     ];
 
     return Scaffold(
