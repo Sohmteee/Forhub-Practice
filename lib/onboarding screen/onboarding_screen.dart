@@ -12,9 +12,9 @@ class OnBoardingScreen extends StatelessWidget {
       body: 
           AppinioSwiper(
             cards: [
-              onBoarding1,
-              onBoarding2,
               onBoarding3,
+              onBoarding2,
+              onBoarding1,
             
         ],
       ),
