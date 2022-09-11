@@ -7,14 +7,8 @@ class OnBoardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    PageController _controller = PageController();
-    int _curr = 0;
-
-    List<Color> colors = [
-      Colors.blue,
-      Colors.yellow,
-      Colors.red,
-    ];
+    PageController controller = PageController();
+    int curr = 0;
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -23,7 +17,7 @@ class OnBoardingScreen extends StatelessWidget {
           SizedBox(
             height: MediaQuery.of(context).size.height * .8,
             child: PageView.builder(
-              controller: _controller,
+              controller: controller,
               itemCount: 3,
               itemBuilder: (_, index) {
                 return OnBoarding(
