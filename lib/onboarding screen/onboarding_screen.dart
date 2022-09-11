@@ -10,7 +10,7 @@ class OnBoardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: 
-          PageView.builder(itemBuilder: itemBuilder)
+          PageView.builder(itemBuilder: (_, position))
     );
   }
 }
