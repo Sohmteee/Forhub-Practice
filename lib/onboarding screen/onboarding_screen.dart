@@ -7,20 +7,6 @@ class OnBoardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return OnBoardingSlider(
-      totalPage: 3,
-      headerBackgroundColor: Colors.white,
-      background: [
-        Image.asset("assets/images/on1.png"),
-        Image.asset("assets/images/on2.png"),
-        Image.asset("assets/images/on3.png"),
-      ],
-      speed: 1.8,
-      pageBodies: [
-        onBoarding1,
-        onBoarding2,
-        onBoarding3,
-      ],
-    );
+    return Swiper();
   }
 }

@@ -19,8 +19,11 @@ class MyApp extends StatelessWidget {
       designSize: const Size(375, 812),
       builder: (_, child) => MaterialApp(
         title: 'For Hub',
-        theme: ThemeData(primarySwatch: Colors.blue, fontFamily: "Nirmala"),
-        home: const OnBoardingScreen3(),
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+          fontFamily: "Nirmala",
+        ),
+        home: const OnBoardingScreen(),
         debugShowCheckedModeBanner: false,
       ),
     );
