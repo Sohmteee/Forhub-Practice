@@ -1,5 +1,7 @@
 import 'package:forhub/widgets/onboarding.dart';
 
+List<String> 
+
 OnBoarding onBoarding1 = const OnBoarding(
   title: "Quick and easy way to locate a hub",
   image: "assets/images/on1.png",
