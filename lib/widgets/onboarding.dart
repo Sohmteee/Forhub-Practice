@@ -18,9 +18,9 @@ class OnBoarding extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(
-        left: 18,
-        right: 27,
+      padding: EdgeInsets.only(
+        left: 18.w,
+        right: 27.w,
       ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
