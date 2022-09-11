@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:splashscreen/splashscreen.dart';
 
-class SplashScreen extends StatelessWidget {
-  const SplashScreen({Key? key}) : super(key: key);
+class SplashScrn extends StatelessWidget {
+  const SplashScrn({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return const SafeArea(
+    return SafeArea(
       child: SplashScreen(
-        
+        backgroundColor: Colors.white,
+        image: Image.asset("assets/images/FORHUB 1.png"),
       ),
     );
   }
