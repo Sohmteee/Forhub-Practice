@@ -11,7 +11,7 @@ class OnBoardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     PageController controller = PageController();
 
-    List pages = <OnBoarding>[
+    List<OnBoarding> pages = [
       onBoarding1,
       onBoarding2,
       onBoarding3,
