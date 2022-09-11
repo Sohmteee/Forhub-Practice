@@ -9,18 +9,14 @@ class OnBoardingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List pages = [
-      onBoarding
-    ]
+      onBoarding1, onBoarding2, onBoarding3,
+    ];
+
     return Scaffold(
-      body: PageView.builder(
+      body: PageView(
         itemCount: 3,
         itemBuilder: (_, index) {
-          switch (index) {
-            case thisPage.:
-              
-              break;
-            default:
-          }
+          
         },
       ),
     );
