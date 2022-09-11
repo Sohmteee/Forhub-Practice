@@ -18,8 +18,12 @@ class OnBoardingScreen extends StatelessWidget {
     ];
 
     return Scaffold(
-      body: PageView(
-        children: pages,
+      body: Column(
+        children: [
+          PageView(
+            children: pages,
+          ),
+        ],
       ),
     );
   }
