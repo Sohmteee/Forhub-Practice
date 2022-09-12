@@ -20,7 +20,7 @@ class _OnBoardingCircleState extends State<OnBoardingCircle> {
       height: 8.sp,
       width: 8.sp,
       decoration: BoxDecoration(
-        color: widget.active ? const Color(0xFF6600) : Colors.grey,
+        color: widget.active ? const Color(0x00ff6600) : Colors.grey,
         borderRadius: BorderRadius.circular(20),
       ),
     );
