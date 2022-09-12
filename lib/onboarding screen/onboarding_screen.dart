@@ -67,22 +67,26 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
           ),
           Expanded(
             child: SizedBox(
-              //creting the onboading screen dots
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+              //creating the onboading circles
+              child: Column(
                 children: [
-                  OnBoardingCircle(
-                    active: on1,
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      OnBoardingCircle(
+                        active: on1,
+                      ),
+                      SizedBox(width: 8.w),
+                      OnBoardingCircle(
+                        active: on2,
+                      ),
+                      SizedBox(width: 8.w),
+                      OnBoardingCircle(
+                        active: on3,
+                      ),
+                      SizedBox(width: 8.w),
+                    ],
                   ),
-                  SizedBox(width: 8.w),
-                  OnBoardingCircle(
-                    active: on2,
-                  ),
-                  SizedBox(width: 8.w),
-                  OnBoardingCircle(
-                    active: on3,
-                  ),
-                  SizedBox(width: 8.w),
                 ],
               ),
             ),
