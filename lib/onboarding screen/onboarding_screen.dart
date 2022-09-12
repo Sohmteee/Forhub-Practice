@@ -4,9 +4,14 @@ import 'package:forhub/public%20data.dart';
 import 'package:forhub/widgets/onboarding.dart';
 import 'package:forhub/widgets/onboarding_circle.dart';
 
-class OnBoardingScreen extends StatelessWidget {
+class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({Key? key}) : super(key: key);
 
+  @override
+  State<OnBoardingScreen> createState() => _OnBoardingScreenState();
+}
+
+class _OnBoardingScreenState extends State<OnBoardingScreen> {
   @override
   Widget build(BuildContext context) {
     PageController controller = PageController();
@@ -30,22 +35,23 @@ class OnBoardingScreen extends StatelessWidget {
                 onPageChanged: (index) {
                   switch (index) {
                     case 0:
-                      setState(() {});
-                      on1 = true;
-                      on2 = false;
-                      on3 = false;
+                      setState(() {
+                        on1 = true;
+                        on2 = false;
+                        on3 = false;
+                      });
                       break;
 
                     case 1:
-                      on1 = false;
-                      on2 = true;
-                      on3 = false;
+                      setState(() {
+                        on1 = false;
+                        on2 = true;
+                        on3 = false;
+                      });
                       break;
 
                     case 2:
-                      on1 = false;
-                      on2 = false;
-                      on3 = true;
+                      s
                       break;
                   }
                 }),
