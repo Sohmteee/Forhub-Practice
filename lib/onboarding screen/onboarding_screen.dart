@@ -33,14 +33,12 @@ class OnBoardingScreen extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Container(
-                    height: 8.sp,
-                    width: 8.sp,
-                    decoration: BoxDecoration(
-                      color: Colors.orange,
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                  )
+                  OnBoardingScreen(),
+                  SizedBox(width: 8.w,)
+                  OnBoardingScreen(),
+                  SizedBox(width: 8.w,)
+                  OnBoardingScreen(),
+                  SizedBox(width: 8.w,)
                 ],
               ),
             ),
