@@ -7,14 +7,13 @@ class OnBoardingCircle extends StatefulWidget {
     required this.active,
   }) : super(key: key);
 
-  final bool active;
+  final bool? active;
 
   @override
   State<OnBoardingCircle> createState() => _OnBoardingCircleState();
 }
 
 class _OnBoardingCircleState extends State<OnBoardingCircle> {
-  
   @override
   Widget build(BuildContext context) {
     return Container(
