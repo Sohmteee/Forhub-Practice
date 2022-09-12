@@ -27,6 +27,14 @@ class OnBoardingScreen extends StatelessWidget {
                   image: images[index],
                 );
               },
+              onPageChanged: (index) {
+                switch (index) {
+                  case 0:
+                    
+                    break;
+                  default:
+                }
+              }),
             ),
           ),
           Expanded(
