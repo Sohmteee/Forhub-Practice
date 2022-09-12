@@ -22,8 +22,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
       body: Column(
         children: [
           //creating the onboarding screens
-          SizedBox(
-            height: MediaQuery.of(context).size.height * .8,
+          Expanded(
             child: PageView.builder(
               controller: controller,
               itemCount: 3,
@@ -65,30 +64,30 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               },
             ),
           ),
-          Expanded(
-            child: SizedBox(
-              //creating the onboading circles
-              child: Column(
-                children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      OnBoardingCircle(
-                        active: on1,
-                      ),
-                      SizedBox(width: 8.w),
-                      OnBoardingCircle(
-                        active: on2,
-                      ),
-                      SizedBox(width: 8.w),
-                      OnBoardingCircle(
-                        active: on3,
-                      ),
-                      SizedBox(width: 8.w),
-                    ],
-                  ),
-                ],
-              ),
+          SizedBox(
+            
+            height: MediaQuery.of(context).size.height * .8,
+            //creating the onboading circles
+            child: Column(
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    OnBoardingCircle(
+                      active: on1,
+                    ),
+                    SizedBox(width: 8.w),
+                    OnBoardingCircle(
+                      active: on2,
+                    ),
+                    SizedBox(width: 8.w),
+                    OnBoardingCircle(
+                      active: on3,
+                    ),
+                    SizedBox(width: 8.w),
+                  ],
+                ),
+              ],
             ),
           ),
         ],
