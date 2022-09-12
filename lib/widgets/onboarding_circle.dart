@@ -7,7 +7,7 @@ class OnBoardingCircle extends StatefulWidget {
     required this.active,
   }) : super(key: key);
 
-  final bool? active;
+  final bool active;
 
   @override
   State<OnBoardingCircle> createState() => _OnBoardingCircleState();
@@ -20,7 +20,7 @@ class _OnBoardingCircleState extends State<OnBoardingCircle> {
       height: 8.sp,
       width: 8.sp,
       decoration: BoxDecoration(
-        color: active ? Colors.orange : Colors.grey,
+        color: widget.active ? Colors.orange : Colors.grey,
         borderRadius: BorderRadius.circular(20),
       ),
     );
