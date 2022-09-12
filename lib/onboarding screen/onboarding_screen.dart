@@ -51,7 +51,11 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       break;
 
                     case 2:
-                      s
+                      setState(() {
+                        on1 = false;
+                        on2 = false;
+                        on3 = true;
+                      });
                       break;
                   }
                 }),
