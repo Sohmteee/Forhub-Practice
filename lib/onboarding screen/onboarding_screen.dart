@@ -25,46 +25,49 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
           SizedBox(
             height: MediaQuery.of(context).size.height * .8,
             child: PageView.builder(
-                controller: controller,
-                itemCount: 3,
-                itemBuilder: (_, index) {
-                  return OnBoarding(
-                    title: titles[index],
-                    image: images[index],
-                  );
-                },
+              controller: controller,
+              itemCount: 3,
+              itemBuilder: (_, index) {
+                return OnBoarding(
+                  title: titles[index],
+                  image: images[index],
+                );
+              },
 
-                //
-                onPageChanged: (index) {
-                  switch (index) {
-                    case 0:
-                      setState(() {
-                        on1 = true;
-                        on2 = false;
-                        on3 = false;
-                      });
-                      break;
+              //making the dots change color when you swipe through
+              //the onboarding screens
+              onPageChanged: (index) {
+                switch (index) {
+                  case 0:
+                    setState(() {
+                      on1 = true;
+                      on2 = false;
+                      on3 = false;
+                    });
+                    break;
 
-                    case 1:
-                      setState(() {
-                        on1 = false;
-                        on2 = true;
-                        on3 = false;
-                      });
-                      break;
+                  case 1:
+                    setState(() {
+                      on1 = false;
+                      on2 = true;
+                      on3 = false;
+                    });
+                    break;
 
-                    case 2:
-                      setState(() {
-                        on1 = false;
-                        on2 = false;
-                        on3 = true;
-                      });
-                      break;
-                  }
-                }),
+                  case 2:
+                    setState(() {
+                      on1 = false;
+                      on2 = false;
+                      on3 = true;
+                    });
+                    break;
+                }
+              },
+            ),
           ),
           Expanded(
             child: SizedBox(
+              //creting the onboading screen dots
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
