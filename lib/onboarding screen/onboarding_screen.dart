@@ -37,10 +37,7 @@ class OnBoardingScreen extends StatelessWidget {
                     height: 8.sp,
                     width: 8.sp,
                     decoration: BoxDecoration(
-                      border: Border.all(
-                        color: Colors.orange,
-                        width: 2,
-                      ),
+                      color: Colors.orange,
                       borderRadius: BorderRadius.circular(20),
                     ),
                   )
