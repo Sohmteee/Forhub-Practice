@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:forhub/public%20data.dart';
 import 'package:forhub/widgets/onboarding.dart';
+import 'package:forhub/widgets/onboarding_circle.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({Key? key}) : super(key: key);
@@ -33,11 +34,11 @@ class OnBoardingScreen extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  OnBoardingScreen(),
+                  OnBoardingCircle(active: true,),
                   SizedBox(width: 8.w),
-                  OnBoardingScreen(),
+                  OnBoardingCircle(active: true,),
                   SizedBox(width: 8.w),
-                  OnBoardingScreen(),
+                  OnBoardingCircle(active: true,),
                   SizedBox(width: 8.w),
                 ],
               ),
