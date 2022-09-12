@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:forhub/public%20data.dart';
 import 'package:forhub/widgets/onboarding.dart';
 
@@ -33,11 +34,12 @@ class OnBoardingScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    height: 20,
-                    width: 20,
+                    height: 15.sp,
+                    width: 15.sp,
                     decoration: BoxDecoration(
                       border: Border.all(
                         color: Colors.orange,
+                        width: 2,
                       ),
                       borderRadius: BorderRadius.circular(20),
                     ),
