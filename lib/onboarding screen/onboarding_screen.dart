@@ -30,6 +30,7 @@ class OnBoardingScreen extends StatelessWidget {
                 onPageChanged: (index) {
                   switch (index) {
                     case 0:
+                      setState(() {});
                       on1 = true;
                       on2 = false;
                       on3 = false;
