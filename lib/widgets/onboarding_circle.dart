@@ -14,14 +14,16 @@ class OnBoardingCircle extends StatefulWidget {
 }
 
 class _OnBoardingCircleState extends State<OnBoardingCircle> {
+  
   @override
   Widget build(BuildContext context) {
     return Container(
       height: 8.sp,
       width: 8.sp,
       decoration: BoxDecoration(
-        color: active ? Colors.orange,
+        color: active ? Colors.orange : Colors.grey,
         borderRadius: BorderRadius.circular(20),
       ),
     );
- 
+  }
+}
