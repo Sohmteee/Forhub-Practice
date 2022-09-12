@@ -21,6 +21,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
       backgroundColor: Colors.white,
       body: Column(
         children: [
+          //creating the onboarding screens
           SizedBox(
             height: MediaQuery.of(context).size.height * .8,
             child: PageView.builder(
@@ -32,6 +33,8 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                     image: images[index],
                   );
                 },
+
+                //
                 onPageChanged: (index) {
                   switch (index) {
                     case 0:
