@@ -2,7 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class OnBoardingCircle extends StatefulWidget {
-  const OnBoardingCircle({Key? key}) : super(key: key);
+  const OnBoardingCircle({
+    Key? key,
+    required this.active,
+  }) : super(key: key);
+
+  final bool active;
 
   @override
   State<OnBoardingCircle> createState() => _OnBoardingCircleState();
