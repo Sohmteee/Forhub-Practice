@@ -21,7 +21,7 @@ class OnBoarding extends StatelessWidget {
         right: 27.w,
       ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.end,
         children: [
           Text(
             title,
@@ -43,6 +43,7 @@ class OnBoarding extends StatelessWidget {
               fontSize: 18.sp,
             ),
           ),
+          SizedBox(height: 47.h),
         ],
       ),
     );
