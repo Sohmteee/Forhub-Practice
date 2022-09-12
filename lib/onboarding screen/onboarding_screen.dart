@@ -29,14 +29,22 @@ class OnBoardingScreen extends StatelessWidget {
           ),
           Expanded(
             child: SizedBox(
-              child: Row(
-                children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                  )
-                ],
+              child: Center(
+                child: Row(
+                  children: [
+                    Container(
+                      height: 20,
+                      width: 20,
+                      decoration: BoxDecoration(
+                        color: Colors.orange,
+                        border: Border.all(
+                          color: Colors.orange,
+                        ),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                    )
+                  ],
+                ),
               ),
             ),
           ),
