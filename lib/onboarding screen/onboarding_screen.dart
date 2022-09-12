@@ -28,8 +28,8 @@ class OnBoardingScreen extends StatelessWidget {
             ),
           ),
           Expanded(
-            child: Container(
-              color: Colors.blue,
+            child: SizedBox(
+              child: Row,
             ),
           ),
         ],
