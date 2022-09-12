@@ -34,11 +34,11 @@ class OnBoardingScreen extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  OnBoardingCircle(active: true,),
+                  OnBoardingCircle(active: on1,),
                   SizedBox(width: 8.w),
-                  OnBoardingCircle(active: true,),
+                  OnBoardingCircle(active: on2,),
                   SizedBox(width: 8.w),
-                  OnBoardingCircle(active: true,),
+                  OnBoardingCircle(active: on3,),
                   SizedBox(width: 8.w),
                 ],
               ),

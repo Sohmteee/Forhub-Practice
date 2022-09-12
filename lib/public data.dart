@@ -11,3 +11,7 @@ List<String> images = [
   "assets/images/on2.png",
   "assets/images/on3.png",
 ];
+
+bool on1 = true;
+bool on2 = false;
+bool on3 = false;

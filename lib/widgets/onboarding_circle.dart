@@ -20,9 +20,8 @@ class _OnBoardingCircleState extends State<OnBoardingCircle> {
       height: 8.sp,
       width: 8.sp,
       decoration: BoxDecoration(
-        color: Colors.orange,
+        color: active ? Colors.orange,
         borderRadius: BorderRadius.circular(20),
       ),
     );
-  }
-}
+ 
