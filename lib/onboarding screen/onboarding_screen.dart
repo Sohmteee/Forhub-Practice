@@ -65,8 +65,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
             ),
           ),
           SizedBox(
-            
-            height: MediaQuery.of(context).size.height * .8,
+            height: 185.h,
             //creating the onboading circles
             child: Column(
               children: [
