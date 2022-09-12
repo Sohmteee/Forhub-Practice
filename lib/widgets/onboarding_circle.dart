@@ -1,12 +1,23 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-Widget OnBoardingCircle = Container(
-  height: 8.sp,
-  width: 8.sp,
-  decoration: BoxDecoration(
-    color: Colors.orange,
-    borderRadius: BorderRadius.circular(20),
-  ),
-);
+class OnBoardingCircle extends StatefulWidget {
+  const OnBoardingCircle({Key? key}) : super(key: key);
+
+  @override
+  State<OnBoardingCircle> createState() => _OnBoardingCircleState();
+}
+
+class _OnBoardingCircleState extends State<OnBoardingCircle> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 8.sp,
+      width: 8.sp,
+      decoration: BoxDecoration(
+        color: Colors.orange,
+        borderRadius: BorderRadius.circular(20),
+      ),
+    );
+  }
+}
