@@ -34,8 +34,8 @@ class OnBoardingScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    height: 15.sp,
-                    width: 15.sp,
+                    height: 8.sp,
+                    width: 8.sp,
                     decoration: BoxDecoration(
                       border: Border.all(
                         color: Colors.orange,
